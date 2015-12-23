@@ -40,6 +40,16 @@
                     android:textSize="50sp"
                     android:gravity="center"
                     />
+                <Button
+                    android:id="@+id/output_button"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/example"
+                    android:textSize="100sp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:maxLines="2"
+                    />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="0dp"
@@ -60,6 +70,17 @@
                     android:gravity="center"
                     android:singleLine="true"
                     autofit:minTextSize="8sp"
+                    />
+
+                <me.grantland.widget.AutofitButton
+                    android:id="@+id/output_button_autofit"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/example"
+                    android:textSize="100sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:maxLines="2"
                     />
             </LinearLayout>
         </LinearLayout>
